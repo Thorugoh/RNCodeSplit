@@ -8,7 +8,8 @@
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint .",
-    "server:android": "http-server ./build/outputs/android/remotes -p 3000"
+    "server:android": "http-server ./build/outputs/android/remotes -p 3000",
+    "build:android": "react-native webpack-bundle --platform android --dev true --entry-file index.js"
   },
   "dependencies": {
     "react": "17.0.2",
