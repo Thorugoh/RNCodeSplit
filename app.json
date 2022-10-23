@@ -1,0 +1,5 @@
+{
+  "name": "RNCodeSplit",
+  "displayName": "RNCodeSplit",
+  "localChunks": ["async_body"]
+}
