@@ -10,7 +10,7 @@ import {name as appName, localChunks} from './app.json';
 ScriptManager.shared.addResolver(async (scriptId, caller) => {
     if (__DEV__) {
         return {
-          url: Script.getRemoteURL("http://10.0.0.2:3000/${scriptId}"),
+          url: Script.getRemoteURL(`http://10.0.2.2:3000/${scriptId}`),
           cache: false
         };
     }
